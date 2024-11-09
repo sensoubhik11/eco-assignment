@@ -1,9 +1,9 @@
 # Estimating Demand Curve of a Vegetable using OLS Regression
 Economics Assignment on Demand Estimation by Prof. Kaushik Mandal.
 
-The final assignment PDF is [here]()
-The notebook detailing step-by-step calculations is [here]()
-The demand curve plot is saved as an image [here]()
+The final assignment PDF is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.pdf)
+The notebook detailing step-by-step calculations is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.ipynb)
+The demand curve plot is saved as an image [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand_curve_tomato.png)
 
 ## Introduction
 This project estimates the demand curve for tomatoes in Paschim Bardhaman from September 1, 2024, to October 30, 2024. The data has been collected from [Agmarknet](https://agmarknet.gov.in/). The estimation utilizes the Ordinary Least Squares (OLS) regression method, calculating the demand curve by treating the price as the independent variable and quantity as the dependent variable.
@@ -31,9 +31,9 @@ This assignment is organized into a few main steps:
 ## Dataset
 The dataset contains information on tomato arrivals and prices in Paschim Bardhaman, with key fields such as:
 
-- Arrivals (Tonnes): Quantity of tomatoes arriving in the market.
-- Modal Price (Rs./Quintal): Price representing the market's typical rate.
-- Reported Date: The date each entry was recorded.
+- **Arrivals (Tonnes)**: Quantity of tomatoes arriving in the market. Its assumed that all the tomatoes have been sold.
+- **Modal Price (Rs./Quintal)**: Price representing the market's typical rate.
+- **Reported Date**: The date each entry was recorded.
 
 ## Installation
 
@@ -61,4 +61,4 @@ To run this project on your local machine, follow these steps:
 ###### Demand Curve Estimation:
 - Open `demand-curve-ols.ipynb` in Jupyter Lab.
 - Run the cells sequentially to perform the full analysis, from data cleaning to calculating the regression coefficients and plotting the demand curve.
-- The demand curve equation obtained is included at the end of the notebook, and the resulting plot can be found in the file demand_curve_tomato.png.
+- The demand curve equation obtained is included at the end of the notebook, and the resulting plot can be found in the file `demand_curve_tomato.png`.
