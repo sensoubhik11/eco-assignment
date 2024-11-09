@@ -1,9 +1,9 @@
 # Estimating Demand Curve of a Vegetable using OLS Regression
 Economics Assignment on Demand Estimation by Prof. Kaushik Mandal.
 
-The final assignment PDF is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.pdf)
-The notebook detailing step-by-step calculations is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.ipynb)
-The demand curve plot is saved as an image [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand_curve_tomato.png)
+- The final assignment PDF is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.pdf)
+- The notebook detailing step-by-step calculations is [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand-curve-ols.ipynb)
+- The demand curve plot is saved as an image [here](https://github.com/sensoubhik11/eco-assignment/blob/master/demand_curve_tomato.png)
 
 ## Introduction
 This project estimates the demand curve for tomatoes in Paschim Bardhaman from September 1, 2024, to October 30, 2024. The data has been collected from [Agmarknet](https://agmarknet.gov.in/). The estimation utilizes the Ordinary Least Squares (OLS) regression method, calculating the demand curve by treating the price as the independent variable and quantity as the dependent variable.
