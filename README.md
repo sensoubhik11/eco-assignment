@@ -11,10 +11,15 @@ This project estimates the demand curve for tomatoes in Paschim Bardhaman from S
 ## Project Description
 This assignment is organized into a few main steps:
 
-- **Data Collection**: Using data from Agmarknet, filtered for tomato arrivals and prices in the Paschim Bardhaman district.
-- **Data Processing**: Cleaning and transforming data to fit the requirements for regression, including converting units for consistency.
-- **Demand Curve Estimation**: Calculating the linear demand curve equation using OLS, with the slope and intercept representing the relationship between price and quantity.
-- **Visualization**: Plotting the demand curve to visualize the relationship, with the final plot saved as a high-resolution image.
+1. **Data Collection**: Using data from Agmarknet, filtered for tomato arrivals and prices in the Paschim Bardhaman district.
+2. **Data Processing**: Cleaning and transforming data to fit the requirements for regression, including converting units for consistency.
+3. **Demand Curve Estimation**:  
+   - Calculating the linear demand curve equation using Ordinary Least Squares (OLS) regression.  
+   - The slope and intercept represent the relationship between price (modal price) and quantity (demand).  
+   - The model was evaluated for goodness of fit using **R²** (0.8740), which indicates that approximately **87.4%** of the variance in quantity demanded is explained by the model.  
+   - The **Adjusted R²** (0.8730) further confirms the robustness of the model, considering the single predictor used.
+4. **Visualization**:  
+   - Plotting the demand curve to visualize the relationship. The final plot is saved as a high-resolution image, showcasing the demand curve and its fit to the data.
 
 ## File Structure
 ```
